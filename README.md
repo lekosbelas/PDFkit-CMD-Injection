@@ -1,5 +1,4 @@
-# PDFkit-CMD-Injection
- CVE-2022-25765 Detail
+#PDFkit-CMD-Injection / CVE-2022-25765 Detail
 
 Description
 The package pdfkit from 0.0.0 are vulnerable to Command Injection where the URL is not properly sanitized.
