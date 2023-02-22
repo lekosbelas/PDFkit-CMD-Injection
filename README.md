@@ -2,7 +2,7 @@
 
 ### CVE-2022-25765 Detail
 
-Description
+#### Description
 The package pdfkit from 0.0.0 are vulnerable to Command Injection where the URL is not properly sanitized.
 
 
